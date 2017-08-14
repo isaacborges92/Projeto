@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project</string>
+    <string name="desc">Description</string>
+    <string name="add_local">Add place</string>
+    <string name="lugar">Place</string>
+    <string name="confirmacao">Confirm</string>
+    <string name="enviar">Send</string>
+    <string name="cidade">City</string>
+    <string name="endereco">Address</string>
+    <string name="verLocalizacao">See location</string>
+    <string name="localAdicionado">New location added successfully</string>
+    <string name="todosOsCampos">Complete all fields</string>
+    <string name="link">Empty link</string>
+</resources>

@@ -1,0 +1,110 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lugar"
+        android:id="@+id/txtLugar"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_below="@+id/txtLugar"
+        android:id="@+id/edtAddLocal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cidade"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edtAddLocal"
+        android:id="@+id/txtCidade"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_below="@+id/txtCidade"
+        android:id="@+id/edtAddCidade"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desc"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edtAddCidade"
+        android:id="@+id/txtDescricao"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_below="@+id/txtDescricao"
+        android:id="@+id/edtAddDescricao"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/endereco"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edtAddDescricao"
+        android:id="@+id/txtEndereco"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_below="@+id/txtEndereco"
+        android:id="@+id/edtAddEndereco"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edtAddEndereco"
+        android:id="@+id/txtURL"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:maxLines="1"
+        android:layout_below="@+id/txtURL"
+        android:layout_toLeftOf="@+id/btnPreview"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/edtAddURL" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtURL"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_remove_red_eye_black_24dp"
+        android:id="@+id/btnPreview"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:id="@+id/btnEnviar"
+        android:layout_below="@id/btnPreview"/>
+
+</RelativeLayout>

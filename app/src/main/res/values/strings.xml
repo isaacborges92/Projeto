@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Projeto</string>
+    <string name="desc">Descrição</string>
+    <string name="add_local">Adicionar lugar</string>
+    <string name="lugar">Lugar</string>
+    <string name="confirmacao">Confirmar</string>
+    <string name="enviar">Enviar</string>
+    <string name="cidade">Cidade</string>
+    <string name="endereco">Endereço</string>
+    <string name="verLocalizacao">Ver localização</string>
+    <string name="localAdicionado">Novo local adicionado com sucesso</string>
+    <string name="todosOsCampos">Preencha todos os campos</string>
+    <string name="link">Link não informado</string>
+</resources>
